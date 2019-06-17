@@ -41,4 +41,32 @@ export class UsbSerialAndroid extends IonicNativePlugin {
   sendMasterCommand(masterID: string, password: string, commandNum: number, commandList: string): Observable<any> {
     return;
   }
+
+  @Cordova({
+    observable: true,
+  })
+  laser(): Observable<any> {
+    return;
+  }
+
+  @Cordova({
+    observable: true,
+  })
+  laserSendCommand(): Observable<any> {
+    return;
+  }
+
+  @Cordova({
+    observable: true,
+  })
+  laserClose(): Observable<any> {
+    return;
+  }
+
+  @Cordova({
+    observable: true,
+  })
+  laserScan(): Observable<any> {
+    return;
+  }
 }

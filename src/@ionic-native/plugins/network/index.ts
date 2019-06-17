@@ -92,7 +92,7 @@ export class Network extends IonicNativePlugin {
   /**
    * Connection type
    * @return {string}
-   */
+   */ 
   @CordovaProperty() type: string;
 
   /**
