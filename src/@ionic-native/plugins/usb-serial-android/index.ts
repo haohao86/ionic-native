@@ -76,4 +76,18 @@ export class UsbSerialAndroid extends IonicNativePlugin {
   status(): Observable<any> {
     return;
   }
+  
+  @Cordova({
+    observable: true,
+  })
+  dongleOpen(): Observable<any> {
+    return;
+  }
+
+  @Cordova({
+    observable: true,
+  })
+  dongleClose(): Observable<any> {
+    return;
+  }
 }
