@@ -15,7 +15,7 @@ import { Observable } from 'rxjs';
   pluginName: 'cordova-plugin-usb-serial-android',
   plugin: 'cordova-plugin-usb-serial-android', // npm package name, example: cordova-plugin-camera
   pluginRef: 'cordova.plugins.USBSerialAndroid', // the variable reference to call the plugin, example: navigator.geolocation
-  repo: 'https://github.com/weijyewang/cordova-plugin-usbserial.git',
+  repo: 'https://github.com/haohao86/cordova-plugin-usbserial.git',
   platforms: ['Android'] // Array of platforms supported, example: ['Android', 'iOS']
 })
 @Injectable({
