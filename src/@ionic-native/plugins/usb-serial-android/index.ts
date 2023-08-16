@@ -90,4 +90,18 @@ export class UsbSerialAndroid extends IonicNativePlugin {
   dongleClose(): Observable<any> {
     return;
   }
+
+  @Cordova({
+    observable: true,
+  })
+  laserScanV2(): Observable<any> {
+    return;
+  }
+
+  @Cordova({
+    observable: true,
+  })
+  laserScanHoneyWell(): Observable<any> {
+    return;
+  }
 }
