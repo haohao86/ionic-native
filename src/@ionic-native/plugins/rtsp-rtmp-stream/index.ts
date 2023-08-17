@@ -3,7 +3,7 @@ import { Cordova, IonicNativePlugin, Plugin } from '@ionic-native/core';
 
 @Plugin({
   pluginName: 'RTSPPlayer',
-  plugin: 'cordova-plugin-rtsp-rtmp-stream',
+  plugin: 'cordova-rtsp-rtmp-stream',
   pluginRef: 'RTSPPlayer',
   repo: 'https://github.com/disono/cordova-rtmp-rtsp-stream.git',
   platforms: ['Android']
